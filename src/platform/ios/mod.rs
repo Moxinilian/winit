@@ -313,7 +313,7 @@ pub struct PlatformSpecificWindowBuilderAttributes {
 impl Default for PlatformSpecificWindowBuilderAttributes {
     fn default() -> Self {
         PlatformSpecificWindowBuilderAttributes {
-            root_view_class: class!(UIView),
+            root_view_class: class!(UIMetalView),
         }
     }
 }
